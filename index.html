@@ -5,7 +5,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
-  <link rel="icon" type="image/png" href="https://web.whatsapp.com/img/favicon_94e99ab189284094867d2e1220e42e9f.png">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
   <title>
     Abrir WhatsApp
   </title>
@@ -31,43 +31,46 @@
     crossorigin="anonymous"></script>
 </head>
 
-<body class="aopen-wapp">
+<body class="open-wapp">
   <!-- -------- START HEADER 8 w/ card over right bg image ------- -->
   <section>
     <div class="page-header min-vh-100">
       <div class="container">
         <div class="row">
           <div
-            class="col-6 d-lg-flex d-none h-100 my-auto pe-0 position-absolute top-0 start-0 text-center justify-content-center flex-column">
-            <div class="position-relative h-100 m-3 px-7 border-radius-lg d-flex flex-column justify-content-center"
+            class="col-6 d-lg-flex d-none h-100 my-auto pe-0 position-absolute top-0 start-0 text-center justify-content-center flex-column"
+            style="background-image: url('assets/img/woman.png'); background-size: cover;">
+            <!-- <div class="position-relative h-100 m-3 px-7 border-radius-lg d-flex flex-column justify-content-center"
               style="background-image: url('https://www.howtogeek.com/wp-content/uploads/2020/09/iPhone-User-Creating-a-new-Contact.png?height=200p&trim=2,2,2,2&crop=16:9'); background-size: cover;"
-              loading="lazy"></div>
+              loading="lazy"></div> -->
           </div>
           <div class="col-xl-5 col-lg-6 col-md-7 d-flex flex-column ms-auto me-auto ms-lg-auto me-lg-5">
-            <div class="card d-flex blur justify-content-center shadow-lg my-sm-0 my-sm-6 mt-8 mb-5">
-              <div class="card-body">
-                <h3 class="text-center">Abrir no WhatsApp</h3>
-                <p class="pb-3">
-                  Não crie um contato no seu celular apenas para mandar uma mensagem no WhatsApp.
-                </p>
-                <div class="card-body p-0 my-3">
-                  <div class="row">
-                    <div class="col-md-12 text-center">
-                      <div class="input-group input-group-static mb-4">
-                        <label>Número</label>
-                        <input type="tel" id="number" class="form-control" maxlength="15" placeholder="(21) 99999-9999">
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-md-12 text-center">
-                      <button type="submit" class="btn bg-gradient-primary mt-3 mb-0" onclick="openWappCall()">Iniciar
-                        conversa</button>
-                    </div>
-                  </div>
+            <!-- <div class="card d-flex blur justify-content-center shadow-lg my-sm-0 my-sm-6 mt-8 mb-5"> -->
+            <!-- <div class="card-body"> -->
+            <h3 class="text-center">Abrir no WhatsApp</h3>
+            <h4>
+              <p class="pb-3">
+                Não crie um contato no seu celular apenas para mandar uma mensagem no WhatsApp.
+              </p>
+            </h4>
+            <!-- <div class="card-body p-0 my-3"> -->
+            <div class="row">
+              <div class="col-md-12 text-center">
+                <div class="input-group input-group-static mb-4">
+                  <label>Número</label>
+                  <input type="tel" id="number" class="form-control" maxlength="15" placeholder="(21) 99999-9999">
                 </div>
               </div>
             </div>
+            <div class="row">
+              <div class="col-md-12 text-center">
+                <button type="submit" class="btn bg-gradient-primary mt-3 mb-0" onclick="openWappCall()">Iniciar
+                  conversa</button>
+              </div>
+            </div>
+            <!-- </div> -->
+            <!-- </div> -->
+            <!-- </div> -->
           </div>
         </div>
       </div>
